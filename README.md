@@ -5,9 +5,9 @@ This code is to create super-resolution models capable of reconstructing high-re
 
 ## Dataset
 
-The dataset used for this model contains pairs of low-resolution and high-resolution 2D slices of 3D direct numerical simulation data. These flowfields are represented as four channels, including density and three velocity components. The dataset is from 2023 Flame AI challenge
+The dataset used for this model contains pairs of low-resolution and high-resolution 2D slices of 3D direct numerical simulation data. These flowfields are represented as four channels, including density and three velocity components. The dataset is used in this model is from the Kaggle 2023 Flame AI challenge.
 
 ## Evaluation Metric
 
-The metric used for this model is Mean Squared Error (MSE), Structural Similarity Index (SSIM) of pixels and subgrid-scale stress evaluations 
+The metric used for this model are Mean Squared Error (MSE), Structural Similarity Index (SSIM) of pixels and subgrid-scale stress evaluations 
 
